@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="addNewOrderActivityOnClick"
+    android:background="#ffffffff"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tytuł zlecenia"
+        android:id="@+id/textView13"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="150dp"
+        android:textColor="#e5070c1d" />
+
+    <EditText
+        android:layout_width="298dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/ET_order_title"
+        android:background="@drawable/edit_text_style"
+        android:layout_weight="0.05"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="5dp"
+        android:paddingLeft="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Opis zlecenia"
+        android:id="@+id/textView14"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textColor="#e5070c1d" />
+
+    <EditText
+        android:layout_width="298dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="10"
+        android:id="@+id/ET_order_description"
+        android:background="@drawable/edit_text_style"
+
+        android:layout_weight="0.17"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status"
+        android:id="@+id/textView15"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textColor="#e5070c1d"
+        android:visibility="invisible" />
+
+=======
+        android:layout_marginTop="5dp"
+        android:layout_weight="0.17"
+        android:layout_gravity="center_horizontal" />
+
+>>>>>>> origin/master
+    <EditText
+        android:layout_width="298dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/ET_order_status"
+        android:background="@drawable/edit_text_style"
+        android:layout_marginTop="5dp"
+        android:layout_weight="0.05"
+        android:layout_gravity="center_horizontal"
+        android:visibility="invisible" />
+
+    <Button
+        android:layout_width="238dp"
+        android:layout_height="wrap_content"
+        android:text="Dodaj zgłoszenie"
+        android:id="@+id/BT_add_new_order"
+        android:layout_marginTop="5dp"
+        android:background="#e5070c1d"
+        android:textColor="#fffffffa"
+        android:layout_gravity="center_horizontal"
+        android:onClick="addNewOrderActivityOnClick" />
+</LinearLayout>

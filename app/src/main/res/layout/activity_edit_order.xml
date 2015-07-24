@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Nazwa zlecenia:"
+        android:id="@+id/textView16"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.03"
+        android:layout_marginTop="80dp"
+        android:textSize="16dp" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/ET_edit_order_title"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/edit_text_style"
+        android:layout_weight="0.03" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Opis:"
+        android:id="@+id/textView17"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.03"
+        android:layout_marginTop="10dp"
+        android:textSize="16dp" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/ET_edit_order_desc"
+        android:background="@drawable/edit_text_style"
+        android:layout_weight="0.56"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/ET_edit_order_status"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_text_style"
+        android:layout_weight="0.03"
+        android:visibility="invisible" />
+
+    <Button
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:text="Zapisz"
+        android:id="@+id/BT_savae_change_order"
+        android:onClick="saveEditOrderOnClick"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#e5070c1d"
+        android:textColor="#fffffffa" />
+</LinearLayout>

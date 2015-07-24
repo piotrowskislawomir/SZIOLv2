@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name"></string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Lokalizacja</string>
+
+    <string name="shared_space">shared_space</string>
+    <string name="shared_login">shared_login</string>
+    <string name="shared_password">shared_password</string>
+    <string name="shared_token">shared_token</string>
+    <string name="shared_localization_enable">shared_localization_enable</string>
+    <string name="shared_notification_enable">shared_notification_enable</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+
+
+    <string name="title_section1">Mój Koszyk</string>
+    <string name="title_section2">Lista Zleceń</string>
+    <string name="title_section3">Dodaj Zlecenie</string>
+    <string name="title_section4">Lista Klientów</string>
+    <string name="title_section5">Dodaj Klienta</string>
+    <string name="title_section6">Mój Zespół</string>
+    <string name="title_section7">Ustawienia</string>
+
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Wyloguj</string>
+
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#ffffffff">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/ET_clients_settings"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="60dp"
+        android:paddingTop="30dp"
+        android:textSize="22dp"
+        android:layout_weight="0.94" />
+
+    <Button
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:text="Dodaj zgłoszenie"
+        android:id="@+id/BT_add_order"
+        android:onClick="addNewOrderOnClick"
+        android:background="#e5070c1d"
+        android:layout_marginTop="10dp"
+        android:textColor="#fffffffa"
+        android:layout_gravity="center_horizontal"
+        android:visibility="invisible" />
+
+    <Button
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:text="Edytuj klienta"
+        android:id="@+id/BT_edytuj_klienta"
+        android:onClick="editClientOnClick"
+        android:layout_gravity="center_horizontal"
+        android:background="#e5070c1d"
+        android:layout_marginTop="10dp"
+        android:textColor="#fffffffa" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Usuń"
+        android:id="@+id/BT_usun_klienta"
+        android:layout_weight="0.04"
+        android:onClick="deleteClientOnClick"
+        android:layout_gravity="center_horizontal"
+        android:background="#ffffffff"
+        android:layout_marginTop="10dp"
+        android:textColor="#fffffffa"
+        android:enabled="false"
+        android:visibility="invisible" />
+
+</LinearLayout>

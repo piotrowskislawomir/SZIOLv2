@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="150dp"
+        android:paddingLeft="10dp"
+        android:layout_weight="0.41"
+        android:layout_marginTop="30dp"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Login"
+            android:id="@+id/textView3"
+            android:paddingTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#e5070c1d" />
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/ET_log_log"
+            android:paddingTop="10dp"
+            android:background="@drawable/edit_text_style"
+            android:layout_gravity="center_horizontal"
+
+            android:paddingLeft="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Hasło"
+            android:id="@+id/textView4"
+            android:paddingTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#e5070c1d" />
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/ET_pass_log"
+            android:paddingTop="10dp"
+            android:background="@drawable/edit_text_style"
+            android:layout_gravity="center_horizontal"
+            android:accessibilityLiveRegion="none"
+            android:paddingLeft="5dp" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="44dp"
+            android:text="Zaloguj"
+            android:id="@+id/button4"
+            android:layout_gravity="center_horizontal"
+            android:singleLine="false"
+            android:layout_marginTop="60dp"
+            android:background="#e5070c1d"
+            android:onClick="loginButtonOnClick"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+</LinearLayout>

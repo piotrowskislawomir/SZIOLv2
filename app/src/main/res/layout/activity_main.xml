@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@mipmap/wallpaper"
+    android:orientation="vertical"
+    android:measureWithLargestChild="false">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="Test"
+        android:id="@+id/button"
+        android:onClick="buttonClicked"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:visibility="invisible"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:weightSum="1"
+        android:id="@+id/linearLayout"
+        android:layout_weight="0.61">
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:text="Logowanie"
+            android:id="@+id/button2"
+            android:layout_gravity="center_horizontal"
+            android:background="#e5070c1d"
+            android:layout_marginTop="10dp"
+            style="@style/Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Large"
+            android:onClick="buttonLogOnClick"
+            android:layout_weight="0.04"
+            android:textColor="#ffffffff" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="44dp"
+            android:text="Rejestracja"
+            android:id="@+id/button3"
+            android:layout_gravity="center_horizontal"
+            android:background="#e5070c1d"
+            android:layout_marginTop="10dp"
+            style="@style/Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Large"
+            android:onClick="buttonRegOnClick"
+            android:layout_weight="0.04"
+            android:textColor="#ffffffff" />
+
+    </LinearLayout>
+
+</LinearLayout>

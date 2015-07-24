@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="512dp"
+        android:layout_marginTop="30dp"
+        android:weightSum="1"
+        android:background="#ffffffff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Imię klienta"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#e5070c1d" />
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/ET_new_client_name"
+            android:layout_marginTop="5dp"
+            android:textColor="#e5070c1d"
+            android:background="@drawable/edit_text_style"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="10dp"
+            android:paddingLeft="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nazwisko klienta"
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:textColor="#e5070c1d" />
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/ET_new_client_last_name"
+            android:layout_marginTop="5dp"
+            android:textColor="#e5070c1d"
+            android:singleLine="false"
+            android:background="@drawable/edit_text_style"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="10dp"
+            android:paddingLeft="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Miasto"
+            android:id="@+id/textView9"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:textColor="#e5070c1d" />
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/ET_new_client_city"
+            android:background="@drawable/edit_text_style"
+            android:layout_marginTop="5dp"
+            android:textColor="#e5070c1d"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="10dp"
+            android:paddingLeft="5dp"
+            android:elegantTextHeight="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ulica"
+            android:id="@+id/textView10"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:textColor="#e5070c1d" />
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:inputType="textPostalAddress"
+            android:ems="10"
+            android:id="@+id/ET_new_client_street"
+            android:layout_marginTop="5dp"
+            android:textColor="#e5070c1d"
+            android:background="@drawable/edit_text_style"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="10dp"
+            android:paddingLeft="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Numer domu"
+            android:id="@+id/textView11"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:textColor="#e5070c1d" />
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:ems="10"
+            android:id="@+id/ET_client_home_number"
+            android:layout_marginTop="5dp"
+            android:textColor="#e5070c1d"
+            android:inputType="text"
+            android:background="@drawable/edit_text_style"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="10dp"
+            android:paddingLeft="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Numer mieszkania"
+            android:id="@+id/textView12"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:textColor="#e5070c1d" />
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:inputType="text|textEmailAddress"
+            android:ems="10"
+            android:id="@+id/ET_new_client_flat_number"
+            android:layout_marginTop="5dp"
+            android:textColor="#e5070c1d"
+            android:background="@drawable/edit_text_style"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="10dp"
+            android:paddingLeft="5dp" />
+
+        <Button
+            android:layout_width="257dp"
+            android:layout_height="wrap_content"
+            android:text="DODAJ KLIENTA"
+            android:id="@+id/button13"
+            android:onClick="addNewClientButtonOnClick"
+            android:background="#e5070c1d"
+            android:textColor="#fffffffa"
+            android:layout_marginTop="35dp"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+</LinearLayout>

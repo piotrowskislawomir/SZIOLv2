@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#ffffffff">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/ET_orders_settings"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="60dp"
+        android:paddingTop="30dp"
+        android:textSize="22dp"
+        android:layout_weight="0.82" />
+
+    <Button
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:text="Przypnij"
+        android:id="@+id/BT_pin_post"
+        android:layout_gravity="center_horizontal"
+        android:onClick="pinOrderOnClick"
+        android:textColor="#fffffffa"
+        android:background="#e5070c1d"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:text="Edytuj zgloszenie"
+        android:id="@+id/BT_edit_order"
+        android:onClick="editSingleOrderOnClick"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#fffffffa"
+        android:background="#e5070c1d"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:text="Usuń"
+        android:id="@+id/BT_delete_order"
+        android:layout_gravity="center_horizontal"
+        android:onClick="deleteOrderOnClick"
+        android:textColor="#fffffffa"
+        android:background="#e5070c1d"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>
